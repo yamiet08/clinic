@@ -1,0 +1,485 @@
+form * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    background-color: #BACDBB;
+    padding: 30px 30px 0px 30px;
+    opacity: 0.8;
+}
+
+.ts {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.prf {
+    font-size: 30px;
+    color: #000000;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.5;
+    padding: 0px 0px 20px 0px;
+}
+
+.deco {
+    background-color: #2B2B2B;
+    height: 4px;
+    opacity: 0.8;
+}
+
+.half1 {
+    width: 45%;
+    float: left;
+    margin-top: 40px;
+}
+
+.ts2 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.address {
+    width: 100%;
+}
+
+.address1 {
+    width: 70%;
+    float: left;
+}
+
+.address2 {
+    width: 30%;
+    float: left;
+}
+
+.address3 {
+    width: 33.3%;
+    float: left;
+}
+
+.address4 {
+    width: 33.3%;
+    float: left;
+}
+
+.address5 {
+    width: 33.3%;
+    float: right;
+}
+
+.address6 {
+    width: 50%;
+    float: left;
+}
+
+.address7 {
+    width: 5%;
+    float: left;
+}
+
+.address8 {
+    width: 45%;
+    float: right;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=street] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=unit] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=city] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=state] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=zip] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[type=email] {
+    width: 50%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=month] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=day] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=year] {
+    width: 90%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[name=maritalStatus] {
+    width: 100%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: inline-block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    width: 60%;
+    padding: 2px 4px;
+    margin: 0px;
+    display: block;
+    border: 0.5px solid #000;
+    border-radius: 5px;
+}
+
+.ts3 {
+    font-size: 18px;
+    padding: 1px 8px 1px 8px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0px 0px 20px 185px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+}
+
+.half2 {
+    width: 55%;
+    border-left: 1px solid darkgrey;
+    float: right;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.pa {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 22px;
+}
+
+.prn {
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.agree {
+    height: 810px;
+    overflow: scroll;
+    border: 1px solid black;
+    text-align: left;
+    background-color: #FFFFFF;
+    padding: 10px 0px 10px 10px;
+}
+
+.agree2 {
+    padding: 8px 0px 8px 0px;
+}
+
+.container2 {
+    max-width: 1140px;
+    margin: auto;
+    background-color: #BACDBB;
+    padding: 15px 20px 15px 0px;
+}
+
+.ts4 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+}
+
+/* For typical mobile devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .agree {
+        height: 761px;
+        overflow: scroll;
+        border: 1px solid black;
+        text-align: left;
+        background-color: #FFFFFF;
+        padding: 10px 0px 10px 10px;
+    }
+
+    .pa {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 22px;
+    }
+
+    .prn {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .prf {
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0px 0px 20px 0px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 2px 4px;
+        margin: 0px;
+        display: block;
+        border: 0.5px solid #000;
+        border-radius: 5px;
+    }
+
+    .half1 {
+        width: 60%;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .half2 {
+        width: 40%;
+        border-left: 1px solid darkgrey;
+        float: right;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    input[type=email] {
+        width: 100%;
+        padding: 2px 4px;
+        margin: 0px;
+        display: block;
+        border: 0.5px solid #000;
+        border-radius: 5px;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        background-color: #BACDBB;
+        padding: 30px 10px 0px 10px;
+        opacity: 0.8;
+    }
+
+    .ts3 {
+        font-size: 18px;
+        padding: 1px 8px 1px 8px;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0px 0px 10px 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2px;
+    }
+}
+
+/* For mobile (landscape) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .agree {
+        height: 761px;
+        overflow: scroll;
+        border: 1px solid black;
+        text-align: left;
+        background-color: #FFFFFF;
+        padding: 10px 0px 10px 10px;
+    }
+
+    .pa {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
+        margin-bottom: 22px;
+    }
+
+    .prn {
+        color: black;
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
+        letter-spacing: 1px;
+    }
+
+    .prf {
+        font-size: 20px;
+        color: #000000;
+        letter-spacing: 2px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        line-height: 1.5;
+        padding: 0px 0px 20px 0px;
+    }
+
+    input[type=text] {
+        width: 100%;
+        padding: 2px 4px;
+        margin: 0px;
+        display: block;
+        border: 0.5px solid #000;
+        border-radius: 5px;
+    }
+
+    .half1 {
+        width: 60%;
+        float: left;
+        margin-top: 40px;
+    }
+
+    .half2 {
+        width: 40%;
+        border-left: 1px solid darkgrey;
+        float: right;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+
+    input[type=email] {
+        width: 100%;
+        padding: 2px 4px;
+        margin: 0px;
+        display: block;
+        border: 0.5px solid #000;
+        border-radius: 5px;
+    }
+
+    .container {
+        max-width: 1140px;
+        margin: auto;
+        background-color: #BACDBB;
+        padding: 30px 10px 0px 10px;
+        opacity: 0.8;
+    }
+
+    .ts3 {
+        font-size: 18px;
+        padding: 1px 8px 1px 8px;
+        text-align: center;
+        line-height: 1.5;
+        margin: 0px 0px 10px 70px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 2px;
+    }
+}
+
+/* For tablet */
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .agree {
+        height: 807px;
+        overflow: scroll;
+        border: 1px solid black;
+        text-align: left;
+        background-color: #FFFFFF;
+        padding: 10px 0px 10px 10px;
+    }
+}
+
+/* For small desktop */
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+    .agree {
+        height: 807px;
+        overflow: scroll;
+        border: 1px solid black;
+        text-align: left;
+        background-color: #FFFFFF;
+        padding: 10px 0px 10px 10px;
+    }
+}
+
+/* For typical desktop */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .agree {
+        height: 807px;
+        overflow: scroll;
+        border: 1px solid black;
+        text-align: left;
+        background-color: #FFFFFF;
+        padding: 10px 0px 10px 10px;
+    }
+}
+
+/* For large desktop */
+@media only screen and (min-width: 1200px) {}
